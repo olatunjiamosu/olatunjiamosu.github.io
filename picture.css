@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.moving-image {
+    position: relative; /* Position for animation */
+    animation: move 5s linear infinite; /* Animation settings */
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    50% {
+        transform: translateX(100vw); /* Move to the right */
+    }
+    100% {
+        transform: translateX(0); /* Back to start */
+    }
+}
+
+img {
+    width: 150px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+}
