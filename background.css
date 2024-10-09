@@ -1,0 +1,17 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+h1 {
+    color: #ff5733; /* Orange header */
+}
+
+p {
+    color: #555; /* Medium gray text */
+}
+
+.button {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white; /* White text */
+}
